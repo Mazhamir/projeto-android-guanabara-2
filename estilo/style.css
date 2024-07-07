@@ -33,7 +33,7 @@ body{
 
 header{
   background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
-  min-height: 150px;
+  min-height: 150px; /* Fica perceptivel quando diminui a tela */
   text-align: center;
   padding-top: 40px;
 }
@@ -41,25 +41,25 @@ header{
 header > h1{
   color: white;
   font-family: var(--font-destaque);
-  font-weight: normal;
+  font-weight: normal; /* Sempre coloque para garantir a normalidade */
   margin-bottom: 20px; /* Fica perceptível quando diminui a tela */
   font-size: 3em;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.562);
 }
 
 a.externo::after {
-  content: '\00A0\1F517';
+  content: '\00A0\1F517'; /* Cria um espacamento e o emoji */
 }
 
 header > p{
   color: white;
   font-family: var(--fonte-padrao);
-  font-size: 1.2em;
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 1.2em; /* Aumenta o tamanho do texto */
+  max-width: 600px; /* Largura maxima */
+  margin: auto; /* Centraliza o texto */
+  margin-bottom: 30px; /* Fica perceptivel quando diminui a tela */
+  padding-left: 10px; /* Fica perceptivel quando diminui a tela */
+  padding-right: 10px; /* Fica perceptivel quando diminui a tela */
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.562);
 }
 
@@ -71,11 +71,11 @@ nav{
 
 nav > a{
   color: white;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition-duration: 0.5s;
+  padding: 10px; 
+  border-radius: 5px; /* Arredonda as bordas */
+  text-decoration: none; /* Tira o sublinhado */
+  font-weight: bold; /* Negrito */
+  transition-duration: 0.5s; /* Duração da transição ao passar o mouse */
 
 
 }
@@ -88,24 +88,24 @@ nav > a:hover{
 
 main{
   background-color: white;
-  margin: auto;
-  margin-bottom: 30px;
-  max-width: 1000px;
-  min-width: 300px;
+  margin: auto; /* Centraliza o conteudo */
+  margin-bottom: 30px; 
+  max-width: 1000px; /* Largura maxima */
+  min-width: 300px; /* Largura minima */
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; /* Arredonda as bordas */
+  border-bottom-right-radius: 10px; /* Arredonda as bordas */
 }
 
 main img{
-  width: 100%;
+  width: 100%; /* Largura maxima da imagem e centraliza o conteudo */
 }
 
 main img.pequena{
-  max-width: 350px;
-  display: block;
-  margin: auto;
+  max-width: 350px; /* Largura maxima da imagem */
+  display: block; /* Centraliza o conteudo em bloco */
+  margin: auto; /* Centraliza o conteudo */
 }
 
 main h1{
@@ -117,50 +117,50 @@ main h1{
 main h2{
   font-family: var(--fonte-android);
   color: var(--cor04);
-  font-size: 1.3em;
+  font-size: 1.3em; /* Tamanho do texto */
   background-image: linear-gradient(to right, var(--cor01), transparent);
-  text-indent: 8px;
-  font-weight: normal;
+  text-indent: 8px; /* Indenta o conteudo */
+  font-weight: normal; /* Sempre coloque para garantir a normalidade */
 }
 
 main  p{
   margin:  15px 0px;
-  text-align: justify;
+  text-align: justify; /* Centraliza o texto */
   text-indent: 30px;
   font-size: 1em;
-  line-height: 2em;
+  line-height: 2em; /* Espacamento entre as linhas */
 }
 
 main strong{
 color: var(--cor04);
-font-weight: bold;
+font-weight: bold; /* Negrito */
 }
 
 
 
 main a{
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: none; /* Tira o sublinhado */
+  font-weight: bold; /* Negrito */
   color: var(--cor05);
   background-color: var(--cor01);
   padding: 2px 6px;
 }
 
 main a:hover{
-  text-decoration: underline;
+  text-decoration: underline; /* Coloca o sublinhado */
   color: var(--cor04);
 }
 
 div.video{
   background-color: var(--cor05);
-  margin: 0px -20px 30px -20px;
-  padding: 20px;
+  margin: 0px -20px 30px -20px; /* Margem externa */
+  padding: 20px; /* Espacamento interno */
   padding-bottom: 56.5%; /* Vai definir a borda preta do vídeo */
   position: relative;
 }
 
 div.video > iframe{
-  position: absolute;
+  position: absolute; 
   top: 5%;
   left: 5%;
   width: 90%;
@@ -175,9 +175,9 @@ aside{
 }
 
 aside > ul{
-  list-style-type: '\2714\00A0\00A0';
-  list-style-position: inside;
-  columns: 2;
+  list-style-type: '\2714\00A0\00A0'; /* Coloca o marcador dentro da lista */
+  list-style-position: inside; /* Coloca o marcador dentro da lista */
+  columns: 2; /* Cria duas colunas */
 }
 
 
