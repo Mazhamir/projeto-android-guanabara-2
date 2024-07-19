@@ -76,8 +76,6 @@ nav > a{
   text-decoration: none; /* Tira o sublinhado */
   font-weight: bold; /* Negrito */
   transition-duration: 0.5s; /* Duração da transição ao passar o mouse */
-
-
 }
 
 nav > a:hover{
